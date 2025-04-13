@@ -12,8 +12,17 @@ This repository contains a step-by-step guide for setting up and mining BITZ tok
 - NOT pre-mined + ZERO team/insider allocations
 - You can mine it using Solana CLI or wait for the web app miner UI
 
+### Token Information
+
+- **Token Address**: [$BITZ (64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF)](https://eclipsescan.xyz/token/64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF)
+- **Price Chart**: [GeckoTerminal](https://www.geckoterminal.com/eclipse/pools/CUzwQT8ZThYuKCerH3SpNu12eyxB4tAU3d19snjhELWU)
+- **Trade on**: [Orca](https://www.orca.so/?chainId=eclipse&tokenIn=64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF&tokenOut=So11111111111111111111111111111111111111112)
+
+⚠️ **IMPORTANT**: Everything is experimental and subject to change. Always verify token addresses and websites before interacting with them. Stay vigilant and practice proper security measures when trading or mining.
+
 ## Table of Contents
 - [What is $BITZ?](#what-is-bitz)
+  - [Token Information](#token-information)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Wallet Setup](#wallet-setup)
@@ -28,6 +37,7 @@ This repository contains a step-by-step guide for setting up and mining BITZ tok
 - [Managing Your BITZ](#managing-your-bitz)
 - [Troubleshooting](#troubleshooting)
 - [Optimization Tips](#optimization-tips)
+- [Safety Disclaimer](#safety-disclaimer)
 
 ## Prerequisites
 - Ubuntu Linux system (20.04 LTS or newer)
@@ -344,4 +354,18 @@ The URL should be set to either `https://mainnetbeta-rpc.eclipse.xyz/` or `https
 - **Monitoring**: Set up basic system monitoring to track performance
 - **Thermal Management**: Ensure proper cooling for extended mining sessions
 - **Automation**: Consider setting up auto-claim scripts for collected BITZ
-- **Security**: Regularly backup your keypair and seed phrase
+## Safety Disclaimer
+
+⚠️ **IMPORTANT**: 
+
+This guide is provided for informational purposes only. The Eclipse ecosystem and BITZ token are experimental projects that may change or be subject to various risks:
+
+- Always verify token addresses before interacting with them
+- Double-check website URLs to avoid phishing attempts
+- Use only trusted bridges when moving funds across chains
+- Never share your private keys or seed phrases with anyone
+- Start with small amounts when testing new platforms
+- Be aware that experimental projects carry higher risks
+- Mining rewards and token values can fluctuate significantly
+
+The developers of this guide or BITZ token cannot be held responsible for any losses that may occur. Participate at your own risk and only invest what you can afford to lose.
