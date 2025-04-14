@@ -169,6 +169,8 @@ solana address
 
 Transfer at least 0.005 ETH to this address on the Eclipse network. You can use a bridge to move ETH from Ethereum mainnet or Layer 2 networks to Eclipse via https://app.eclipse.xyz/bridge or https://www.relay.link/bridge/eclipse.
 
+⚠️ **NOTE:** Mining operations consume small amounts of ETH for transactions. You'll need to maintain a minimum balance of 0.0005 ETH to be able to claim your mined tokens. If your balance falls below this threshold, you'll need to top up your wallet with more ETH on the Eclipse network.
+
 ## Backpack Wallet Integration
 
 ### Method 1: Import Wallet Using Private Key Array
@@ -334,6 +336,7 @@ bitz -h
 | solana-keygen Not Found | Verify PATH settings: `echo $PATH` and ensure Solana binaries are included |
 | Connection Issues | Verify Eclipse RPC endpoint: `solana config get` |
 | Low Mining Rate | Check CPU usage, network connection, and consider adjusting cores |
+| "Insufficient balance" error when claiming | Your ETH balance has fallen below the required threshold (0.0005 ETH). Top up your wallet with more ETH on Eclipse network before trying to claim again. |
 
 ### Getting Your Node IP
 To find your node's IP address:
